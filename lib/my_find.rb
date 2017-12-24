@@ -5,8 +5,8 @@ def my_find(collection)
   output = nil
 
   while i < collection.length
-    if yield(array[i]) == true
-      output = yield(array[i])
+    if yield(collection[i]) == true
+      output = collection[i]
     end
   end
   output
