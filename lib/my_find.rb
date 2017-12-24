@@ -6,7 +6,7 @@ def my_find(collection)
 
   while i < collection.length
     if yield(array[i]) == true
-      output = yiel(array[i])
+      output = yield(array[i])
     end
   end
   output
